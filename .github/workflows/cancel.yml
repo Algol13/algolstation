@@ -2,7 +2,7 @@ name: Cancel
 on:
   push:
     branches:
-      - baymerge-testing
+      - master
 
 # NB: We can discover workflow IDs for this job at https://api.github.com/repos/ORG/REPO/actions/workflows
 jobs:
